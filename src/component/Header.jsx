@@ -20,7 +20,7 @@ export function Header(){
             <div role="image">
                 <img src={logo} alt="logo"/>
             </div>
-            <ul className="flex font-inter gap-5">
+            <ul className="hidden md:flex font-inter gap-5">
                 <li className="text-Darkgrayishblue hover:text-Softred cursor-pointer">Home</li>
                 <li className="text-Darkgrayishblue hover:text-Softred cursor-pointer">New</li>
                 <li className="text-Darkgrayishblue hover:text-Softred cursor-pointer">Popular</li>
